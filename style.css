@@ -7,17 +7,18 @@ _:root_{
     --fundo-senha: #6A5ACD;
     --fundo-texto:#8B008B;
     --borda:	#DC143C;
-    --roboto: 'Roboto Mono' monospace;
+    --roboto: 'Monsieur' monospace;
 
 }
  body{
     color:var(--fundo-texto);
     background-color: var(--cor-do-fundo);
-    font-family:var(--roboto);
+    font-family:var(--monsieur);
 
  }
  .titulo-principal{
      
-    font-family: var(--roboto);
+    font-family: var(--monsieur);
     font-size: 32px;
  }
+ 
