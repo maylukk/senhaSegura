@@ -21,3 +21,22 @@ function diminuiTamanho(){
     numeroSenha.textContent = tamanhoSenha
     geraSenha();
 }
+
+function geraSenha() {
+    let alfabeto = '';
+    if (checkbox[0].chacked){
+        alfabeto = alfabeto + letrasMaiusculas;
+    }
+   if(checkbox[1].checked ) {
+    alfabeto = alfabeto + letrasMinusculas;
+   }
+    if (checkbox[2].chacked){
+        alfabeto = alfabeto + numeros;
+    }
+    if (checkbox[3].chacked){
+        alfabeto = alfabeto + simbolos;
+    }    
+    if (alfabeto.length === 0) {
+        campoSenha
+    }
+}
